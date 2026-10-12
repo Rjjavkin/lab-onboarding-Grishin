@@ -1,0 +1,21 @@
+#Это корневой файл для всего проэкта
+root = true
+
+#Правила всех файлов (*)
+[*]
+#Использовать одну кодирвку UF-8
+Charset = utf-8
+#Использовать пробелы для отступов
+indent_style = spase
+#Размер отступа 4 пробела
+indent_style = 4
+#Тип переноса строки LF
+end_of_line = lf
+#Удалять пробелы в конце строк
+trim_tralling_whitespase = true
+#Добавлять пустую строку в конце файла
+insert_final_newline = true
+
+#Особые правила для файлов разметки
+[*.{yml,yaml,json,html}]
+indent_size = 2
